@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 500px;
+            background-color: yellow;
+            color: rgb(204, 28, 28);
+            text-align: center;
+            align-items: center;
+           
+            align-content: center;
+
+        }
+        @media(max-width:720px){
+            .container{background-color: green;}
+        }
+        @media(min_width:720px){
+            .container{
+                background-color: blueviolet;
+            }
+        }
+        @media(min-width:1024px){
+            .container{
+                background-color: rgb(224, 94, 137);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>hello</h1>
+        </div> 
+    </div>
+</body>
+</html>
